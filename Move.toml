@@ -1,0 +1,15 @@
+[package]
+name = "Real-time-tutoring-session-payment-contracts"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule = "0xa81dcbb6abc6f4f5ad5d743b1fa7e4f4f342c0bc2db7c14a46324ada046395b3"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
